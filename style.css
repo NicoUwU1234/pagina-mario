@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    background: linear-gradient(red 0%,rgb(47, 255, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family:sans-serif ;
+    font-weight: 500;
+}
+#name{
+font-size: 50;
+font-family: cursive;
+}
+h2{
+    font-size: 30px;
+    font-family: monospace;
+}
+.menu{
+list-style: none;
+position: absolute;
+top: 10px;
+right: 30px;
+z-index: 10;
+cursor: pointer;
+}
+.links{
+float: left;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;
+font-family: fantasy;
+font-size: 20px;
+}
+#biografia {
+    font-family: 'Secular One', sans-serif;
+}
+#welcome{
+    font-family: 'Secular One', sans-serif; 
+}
+.menu{
+    position: fixed;
+    background: green;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.links{
+    display: line;
+    padding-left: 35px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
